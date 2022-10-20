@@ -9,7 +9,7 @@
 <body>
     <header>
         <!-- poner logo de canva -->
-        <img src="img/logo_tacos.png" alt="">
+        <img width="230" height="230" src="img/logo_tacos.png" alt="">
         <h1>Tacos <i> "Los ¡bara-bara!"</i></h1>
         <!-- ingresar menú -->
         <h3>los más baratos del rumbo</h3>
@@ -120,6 +120,48 @@
          </tr>
 
         </table>
+
+<br>
+        <form action="" method="">
+        Nombre:<input type="text" name="nombre" placeholder="Escribe tu nombre" minlength="3" maxlength="50" required>
+<br>
+        Correo electrónico:<input type="email" name="correo_electronico" placeholder="Correo completo" id="">
+<br>
+        Teléfono:<input type="tel" name="telefono" minlength="10" maxlength="10" placeholder="10 dígitos"  id="">
+<br>
+            
+            <input type="radio" name="envio" value="envio" id=""> Envío a domicilio
+            <input type="radio" name="envio" value="sucursal" id=""> Recoge en sucursal
+<br>
+         Dirección:<input type="text" name="Dirección" size="80">
+<br>
+            <select name="sucursal" id="">
+                <option value="Metro CU">Metro CU</option>
+                <option value="Metro Miguel A. de Quevedo">Metro Miguel A. de Quevedo</option>
+                <option value="Metro Taxqueña">Metro Taxqueña</option>
+                <option value="Metro Miguel A. de Quevedo">Metro Miguel A. de Quevedo</option>
+                <option value="Metro Bellas Artes">Metro Bellas Artes</option>
+                <option value="Metro Cuauhtémoc ">Metro Cuauhtémoc </option>
+<br>
+            <input type="date" name="Fecha de entrega" min="2022-10-20" max="2022-10-27" id="">
+
+<br>
+            <!-- Password:<input type="password" name="password" placeholder="ingresa tu contraseña" id="">
+ <br>
+            <input type="file" name="Agrega tu pago" placeholder="agrega tu opago" id="">
+ <br>
+            <input type="file" accept="imagen/*" capture="user" name="captura" id=""> -->
+
+                
+
+
+
+            </select>
+
+
+
+
+        </form>
     
 </body>
 </html>
